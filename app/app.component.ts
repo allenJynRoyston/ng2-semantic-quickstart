@@ -1,44 +1,10 @@
 import { Component } from '@angular/core';
-import {  uiSemanticPopup,
-          uiSemanticEmbed,
-          uiSemanticAccordion,
-          uiSemanticRating,
-          uiSemanticDimmer,
-          uiSemanticDimmerButton,
-          uiSemanticModal,
-          uiSemanticModalAction,
-          uiSemanticSidebar,
-          uiSemanticCheckbox,
-          uiSemanticDropdown,
-          uiSemanticTab,
-          uiSemanticProgress,
-          uiSemanticProgressButton,
-          uiSemanticTransitionOnload,
-          uiSemanticTransitionButton,
-          uiSemanticTransitionHover,
-          uiSemanticVisibility  } from './ng2/dist/semantic-ui.directive';
+import { UISEMANTIC_ALL } from '../node_modules/ng2-semantic-ui-directives/ng2-sui'
 
 @Component({
     selector: 'my-app',
     directives:[
-         uiSemanticRating,
-         uiSemanticDimmer,
-         uiSemanticDimmerButton,
-         uiSemanticModal,
-         uiSemanticModalAction,
-         uiSemanticSidebar,
-         uiSemanticAccordion,
-         uiSemanticCheckbox,
-         uiSemanticDropdown,
-         uiSemanticEmbed,
-         uiSemanticPopup,
-         uiSemanticProgress,
-         uiSemanticProgressButton,
-         uiSemanticTab,
-         uiSemanticTransitionOnload,
-         uiSemanticTransitionButton,
-         uiSemanticTransitionHover,
-         uiSemanticVisibility
+         UISEMANTIC_ALL
     ],
     template: `
     <div class='ui container'>
